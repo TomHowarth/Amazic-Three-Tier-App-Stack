@@ -1,0 +1,7 @@
+access_ip  = "0.0.0.0/0"
+db_name    = "threetierdb"
+dbuser     = "admin"
+dbpassword = "Th15is4$ecretP455w0rd"
+location = "eu-west-2"
+instance_type = "t2.micro"
+env = "p"
