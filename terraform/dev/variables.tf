@@ -28,3 +28,11 @@ variable "instance_type" {
 variable "env" {
   type = string # p = prod, d = dev, s = staging, t = test, r = recovery
 }
+
+variable "secret_key" {
+  type = string
+}
+
+variable "access_key" {
+  type = string
+}
