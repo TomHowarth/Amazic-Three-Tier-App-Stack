@@ -4,9 +4,9 @@ provider "aws" {
   region = var.location
   access_key = "AKIAY7FS5OFSRIU2AYJY"
   secret_key = "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"
-  #endpoints {
-  #   sts = "https://sts.eu-west-2.amazonaws.com"
-  #}
+  endpoints {
+     sts = "https://sts.eu-west-2.amazonaws.com"
+  }
 }
 
 locals {
