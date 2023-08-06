@@ -76,7 +76,7 @@ resource "aws_route_table_association" "amazic_public_assoc" {
 ### EIP AND NAT GATEWAY
 
 resource "aws_eip" "amazic_nat_eip" {
-  vpc = true
+  domain = "vpc" # = true
 }
 
 resource "aws_nat_gateway" "amazic_ngw" {
